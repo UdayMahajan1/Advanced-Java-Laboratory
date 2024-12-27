@@ -12,12 +12,13 @@ public class App
         // Load XML configuration
 //        ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 
-//        // Retrieve the bean
+//        // Retrieve the bean using XML Configuration
 //        GreetingService greetingService = (GreetingService) context.getBean("greetingService");
 //
 //        // Use the bean
 //        greetingService.sayHello();
 
+        // Getting a bean using Spring Annotations
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
         // Retrieve a bean from the container
