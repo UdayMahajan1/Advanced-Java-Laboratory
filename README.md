@@ -3,3 +3,4 @@
 3. The config.xml file which holds the spring bean configuration and is located at src/main/java/resources
 4. Some of the code has already been set so that it's easy to follow
 5. Use the same structure to complete the tasks in your labs.  
+6. This repository is to be used to carry out lab 6 and 7. You will find two different branches for the same.
