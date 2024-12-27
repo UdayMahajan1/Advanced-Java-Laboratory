@@ -5,6 +5,5 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Define the bean -->
-    <bean id="greetingService" class="com.springcore.GreetingService" />
 
 </beans>
